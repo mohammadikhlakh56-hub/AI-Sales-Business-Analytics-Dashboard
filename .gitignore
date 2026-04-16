@@ -1,0 +1,25 @@
+# Streamlit secrets (NEVER commit this — contains API keys)
+.streamlit/secrets.toml
+
+# Environment variables
+.env
+.env.local
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Data files (keep them local, never push raw CSVs)
+*.csv
+*.xlsx
+*.xls
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE folders
+.vscode/
+.idea/
